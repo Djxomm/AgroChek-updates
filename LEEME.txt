@@ -1,0 +1,32 @@
+AgroChek ERP 7.0.00 — Compilación 20261005.08
+
+Paquete de correcciones de escritorio. No es certificación del cierre integral.
+
+1. Guarde sus capturas y cierre AgroChek antes de ejecutar el paquete.
+2. INSTALADOR permite instalación nueva y actualización.
+3. ACTUALIZACION requiere una instalación existente del mismo usuario de Windows.
+4. En Configuración, conectado a la base deseada, use Crear/actualizar tablas.
+   Confirme el nombre de la base en el diálogo. Incluye ahora las cinco tablas
+   PC/web de Captura Nuez. No borra registros; si falla, revierte la transacción.
+5. admin ve Actualización en línea y Puente local. Kevin ve únicamente los
+   ajustes del puente. Otros usuarios no pueden guardar esos ajustes.
+6. Puente local acepta IP/nombre, puerto y clave protegida por Windows.
+   Es configuración preparatoria: NO habilita transporte entre PCs.
+7. Actualización en línea abre el canal de GitHub para descarga manual.
+   NO instala automáticamente ni aplica migraciones por sí sola.
+8. El indicador muestra disponibilidad del ciclo actual y conserva aparte el
+   estado de sincronización. El naranja está preparado para un puente confirmado,
+   pero no se activa mientras el transporte siga pendiente.
+
+Validación: 39 pruebas focalizadas/regresión; migración ejecutada dos veces en
+ERP_NOGALERA_PRUEBA; 24 operaciones enviadas en dos lotes, reintento sin duplicados;
+tres recorridos compilados y arranque del producto aislado.
+
+Pendientes: HTTPS y autenticación del puente, captura/reenvío entre PCs, ruta
+alternativa de la APK, aislamiento de datos y pendientes al cambiar de base,
+recuperación física con desconexión/reconexión y actualización automática.
+Los pendientes de autorización de períodos y cierre integral de Nómina siguen
+documentados en AVANCE_ERP.md. No se probaron servicios PAC ni impresión física.
+
+No se modificó elva_importer durante las pruebas. No se instaló sobre producción.
+El manual general anterior .07 sigue como referencia; esta nota describe .08.
