@@ -1,18 +1,19 @@
 {
   "producto": "AgroChek ERP",
   "version": "7.0.00",
-  "compilacion": "20261005.07",
+  "compilacion": "20261005.08",
   "tipo": "solo_actualizacion",
   "requiere_instalacion_existente": true,
   "identidad_instalacion": "A42CA56D-5A1B-4DF3-BD86-761B41D844E7",
-  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261005.07/AgroChek_ERP_7.0.00_20261005_07_ACTUALIZACION.exe",
-  "sha256": "3ae5b4a0183fcf3a7d979dc704de465d70d1fe5ab29cb17ba641b359f6ad991b",
-  "bytes": 107062143,
-  "producto_sha256": "c4a26bc5fcb4dcf21eefdce57591be023606ee6f93a1d1ae6b24e849af47acfc",
+  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261005.08/AgroChek_ERP_7.0.00_20261005_08_ACTUALIZACION.exe",
+  "sha256": "4b65a4c242ba205ab5ca8ac3b980f8d8a26a9beb04d71e8888183ee6864374c2",
+  "bytes": 107072478,
+  "producto_sha256": "3305277441a03149c8b8e62fcc7b4e5ef96b2066f12df0d9767b513bb479dd08",
   "instalacion_automatica_habilitada": false,
   "limites": [
-    "Sin prueba SQL real",
-    "Sin instalación del producto en otra PC",
-    "Impresión física y PAC pendientes"
+    "Puente entre PCs y APK pendiente",
+    "Cambio de base y recuperacion integral pendientes",
+    "Sin instalacion del producto en otra PC",
+    "Impresion fisica y PAC pendientes"
   ]
 }
