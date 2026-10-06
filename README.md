@@ -1,5 +1,7 @@
 # Actualizaciones AgroChek ERP
 
-Distribución exclusiva de actualizaciones para instalaciones existentes. Sin código fuente, bases de datos, credenciales ni instaladores completos.
+Compilación 20261005.07 disponible en [Releases](https://github.com/Djxomm/AgroChek-updates/releases/tag/v7.0.00-20261005.07).
 
-Todavía no hay paquetes publicados ni actualización automática disponible. Cada paquete deberá comprobar una instalación existente antes de aplicarse.
+Descargue el paquete ACTUALIZACION. Requiere AgroChek ERP ya instalado para el mismo usuario de Windows; rechaza una instalación desde cero. El instalador completo y el código permanecen en el repositorio privado.
+
+Consulte GUIA_CORRECCIONES.md y manifest.json. La instalación automática aún no está habilitada. SQL real, impresión física y otra PC permanecen pendientes.
