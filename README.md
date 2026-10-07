@@ -1,6 +1,6 @@
 # Actualizaciones AgroChek ERP
 
-Compilación 20261006.06 disponible en [Releases](https://github.com/Djxomm/AgroChek-updates/releases/tag/v7.0.00-20261006.06).
+Compilación 20261006.07 disponible en [Releases](https://github.com/Djxomm/AgroChek-updates/releases/tag/v7.0.00-20261006.07).
 
 Descargue el paquete ACTUALIZACION. Requiere AgroChek ERP ya instalado para el mismo usuario de Windows; rechaza una instalación desde cero. El instalador completo y el código permanecen en el repositorio privado.
 
@@ -19,3 +19,5 @@ Compilación 20261006.05: Impresoras y Cámara disponibles para usuarios con per
 Compilación 20261006.06: al guardar el Puente local en el equipo anfitrión, admin o Kevin autorizan con Windows una regla TCP entrante para el puerto seleccionado, sólo en perfil privado y desde la misma subred. Verificación posterior obligatoria; un rechazo no se presenta como puerto abierto. No abre el Firewall local al configurar un equipo remoto. Actualiza sólo la regla AgroChek-Puente-Local-TCP al cambiar puerto. No inicia el servicio ni habilita el respaldo integral entre PCs; el servicio web actual usa 8010 por defecto. Las pruebas reales de UAC/Firewall entre equipos están pendientes.
 
 Incluye iconos de red y actualización en Puente local y Actualización en línea, con el sistema visual existente y los mismos permisos.
+
+Compilación 20261006.07: descargas temporales propias con limpieza después de cerrar el instalador y recuperación en el siguiente arranque. Depurar sistema permite limpiar descargas antiguas marcadas; conserva las recientes (24 horas), procesos activos y archivos ajenos. No borra datos ni respaldos. Las descargas antiguas sin marca se conservan, salvo el paquete de esta entrega cuando el propio instalador finalizado registra su origen dentro de la caché del usuario. No se debe interpretar limpieza de un instalador cancelado como actualización completada.
