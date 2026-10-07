@@ -1,6 +1,6 @@
 # Actualizaciones AgroChek ERP
 
-Compilación 20261006.04 disponible en [Releases](https://github.com/Djxomm/AgroChek-updates/releases/tag/v7.0.00-20261006.04).
+Compilación 20261006.05 disponible en [Releases](https://github.com/Djxomm/AgroChek-updates/releases/tag/v7.0.00-20261006.05).
 
 Descargue el paquete ACTUALIZACION. Requiere AgroChek ERP ya instalado para el mismo usuario de Windows; rechaza una instalación desde cero. El instalador completo y el código permanecen en el repositorio privado.
 
@@ -13,3 +13,5 @@ Incluye el actualizador de Configuración para admin: descarga con porcentaje, v
 Continúan pendientes la impresión física remota, la firma compatible de APK y el respaldo entre equipos de todos los módulos. Nómina se conserva en su estado actual. Esta entrega no certifica el cierre integral de la suite.
 
 Correcciones 20261006.04: estabilización del panel Captura Nuez / Sincronizar para evitar el parpadeo y las llamadas anidadas al reajustar altura. Manifiesto ordenado por calibre: JUMBO, OS1, OS2, XL, LG, MD y SM, tanto en vista previa como al imprimir. Conserva registros y totales.
+
+Compilación 20261006.05: Impresoras y Cámara disponibles para usuarios con permiso de Configuración. El acceso se comprueba al abrir y al guardar; la configuración SQL y el mantenimiento conservan sus restricciones. Cada selección conserva las preferencias de los demás dispositivos.
