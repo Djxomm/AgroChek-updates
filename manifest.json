@@ -5,7 +5,7 @@
   "tipo": "solo_actualizacion",
   "requiere_instalacion_existente": true,
   "identidad_instalacion": "A42CA56D-5A1B-4DF3-BD86-761B41D844E7",
-  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/untagged-942e43ccea9e4aae75a5/AgroChek_ERP_7.0.00_20261006_10_ACTUALIZACION.exe",
+  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261006.10/AgroChek_ERP_7.0.00_20261006_10_ACTUALIZACION.exe",
   "sha256": "aa4461d90ac750a8a9ed762f5671d9444f8c943072324e8c675981cdd454e26c",
   "bytes": 107625429,
   "producto_sha256": "92390a2c46135e621b963ea0515853659e9efb66b87743c7d0a40a0abfb607b4",
