@@ -1,4 +1,4 @@
-AgroChek ERP 7.0.00 — Compilación 20261006.03
+AgroChek ERP 7.0.00 — Compilación 20261006.04
 
 Paquete de correcciones de escritorio. No es certificación del cierre integral.
 
@@ -39,3 +39,5 @@ documentados en AVANCE_ERP.md. No se probaron servicios PAC ni impresión físic
 
 No se modificó elva_importer durante las pruebas. No se instaló sobre producción.
 El manual general anterior .07 sigue como referencia; esta nota describe .08.
+
+Correcciones 20261006.04: estabilización del panel Captura Nuez / Sincronizar para evitar el parpadeo y las llamadas anidadas al reajustar altura. Manifiesto ordenado por calibre: JUMBO, OS1, OS2, XL, LG, MD y SM, tanto en vista previa como al imprimir. Conserva registros y totales.
