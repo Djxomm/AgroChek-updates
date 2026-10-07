@@ -1,4 +1,4 @@
-AgroChek ERP 7.0.00 — Compilación 20261005.08
+AgroChek ERP 7.0.00 — Compilación 20261006.02
 
 Paquete de correcciones de escritorio. No es certificación del cierre integral.
 
@@ -12,7 +12,11 @@ Paquete de correcciones de escritorio. No es certificación del cierre integral.
    ajustes del puente. Otros usuarios no pueden guardar esos ajustes.
 6. Puente local acepta IP/nombre, puerto y clave protegida por Windows.
    Es configuración preparatoria: NO habilita transporte entre PCs.
-7. Actualización en línea abre el canal de GitHub para descarga manual.
+7. Actualización en línea de Configuración permite buscar y descargar el paquete con
+   progreso y verificación de tamaño y SHA-256; admin confirma antes de abrir el instalador.
+   La instalación sigue mostrando el asistente. No es una instalación silenciosa.
+8. Al guardar un empleado o su fotografía se ofrece la vista previa para imprimir
+   su gafete. La función manual se conserva. Las fotos nuevas mantienen su fondo original.
    NO instala automáticamente ni aplica migraciones por sí sola.
 8. El indicador muestra disponibilidad del ciclo actual y conserva aparte el
    estado de sincronización. El naranja está preparado para un puente confirmado,
