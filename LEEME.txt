@@ -1,4 +1,4 @@
-AgroChek ERP 7.0.00 — Compilación 20261006.02
+AgroChek ERP 7.0.00 — Compilación 20261006.03
 
 Paquete de correcciones de escritorio. No es certificación del cierre integral.
 
@@ -17,6 +17,11 @@ Paquete de correcciones de escritorio. No es certificación del cierre integral.
    La instalación sigue mostrando el asistente. No es una instalación silenciosa.
 8. Al guardar un empleado o su fotografía se ofrece la vista previa para imprimir
    su gafete. La función manual se conserva. Las fotos nuevas mantienen su fondo original.
+9. El contador general incluye Captura Nuez PC/Web. Un error o captura pendiente
+   mantiene el estado Sincronización pendiente. Seleccione la fila para leer el mensaje
+   completo. La barra verde se oculta al terminar.
+10. El actualizador no crea tablas SQL. Si faltan tablas, use Configuración →
+    Crear/actualizar tablas, confirme el destino y vuelva a Sincronizar toda la suite.
    NO instala automáticamente ni aplica migraciones por sí sola.
 8. El indicador muestra disponibilidad del ciclo actual y conserva aparte el
    estado de sincronización. El naranja está preparado para un puente confirmado,
