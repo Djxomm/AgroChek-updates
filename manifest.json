@@ -11,10 +11,9 @@
   "producto_sha256": "9e05308e2657d8cde259b83998037cfbc3e4958f2004a4aec1c17f9418ac4752",
   "instalacion_automatica_habilitada": true,
   "limites": [
-    "NÃƒÂ³mina en desarrollo; consulta Sonora antes de estÃƒÂ­mulos, sin declaraciÃƒÂ³n ni PAC",
-    "ImpresiÃƒÂ³n fÃƒÂ­sica pendiente en el equipo remoto",
-    "Firma compatible APK pendiente del archivo original",
-    "EdiciÃƒÂ³n concurrente del mismo empleado pendiente de resoluciÃƒÂ³n",
+    "Nómina en desarrollo; consulta Sonora antes de estímulos, sin declaración ni PAC",
+    "Impresión física pendiente en el equipo remoto",
+    "Edición concurrente del mismo empleado pendiente de resolución",
     "Perfiles independientes y respaldo de toda la suite entre equipos pendientes de cierre"
   ]
 }
