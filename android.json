@@ -1,0 +1,10 @@
+{
+  "versionCode": 30,
+  "packageName": "mx.elva.asistencia",
+  "sha256": "f32171508d33730184a759e1dd07ab7f5c2caaf230cddd9779f09568c7fb7a9a",
+  "bytes": 16332966,
+  "versionName": "7.0.00",
+  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-android.30/AgroChek_Asistencia_7.0.00_30_PILOTO.apk",
+  "notas": "APK piloto completa. Reconexión y envío de capturas; consulta de actualizaciones con Descargar, Instalar y Cancelar. Verifica SHA-256, paquete, versión y misma firma instalada. Android confirma la instalación. Firmada con el certificado de desarrollo existente; no instala sobre otra firma. Prueba física en tablet pendiente.",
+  "certificado_sha256": "c4aacb59c7a7a52741db8962c32dcbc93da9665df7cce689265803ef583d3531"
+}
