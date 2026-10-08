@@ -1,20 +1,20 @@
 {
   "producto": "AgroChek ERP",
   "version": "7.0.00",
-  "compilacion": "20261007.09",
+  "compilacion": "20261008.01",
   "tipo": "solo_actualizacion",
   "requiere_instalacion_existente": true,
   "identidad_instalacion": "A42CA56D-5A1B-4DF3-BD86-761B41D844E7",
-  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261007.09/AgroChek_ERP_7.0.00_20261007_09_ACTUALIZACION.exe",
-  "sha256": "65aa59bcfdbde7b5eeca2a4352b846a7ab6328327a9567eb27cde5108515de61",
-  "bytes": 107764717,
-  "producto_sha256": "b7b122385e2a72f797e34a402c0945af10fe163fd07a93a0cb724568ae740f5b",
+  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261008.01/AgroChek_ERP_7.0.00_20261008_01_ACTUALIZACION.exe",
+  "sha256": "533da56a3d87fececf8ebe0051c3dfe447dbf78f442337c77d0efca7747737f6",
+  "bytes": 107765010,
+  "producto_sha256": "9e05308e2657d8cde259b83998037cfbc3e4958f2004a4aec1c17f9418ac4752",
   "instalacion_automatica_habilitada": true,
   "limites": [
-    "NÃ³mina en desarrollo; consulta Sonora antes de estÃ­mulos, sin declaraciÃ³n ni PAC",
-    "ImpresiÃ³n fÃ­sica pendiente en el equipo remoto",
+    "NÃƒÂ³mina en desarrollo; consulta Sonora antes de estÃƒÂ­mulos, sin declaraciÃƒÂ³n ni PAC",
+    "ImpresiÃƒÂ³n fÃƒÂ­sica pendiente en el equipo remoto",
     "Firma compatible APK pendiente del archivo original",
-    "EdiciÃ³n concurrente del mismo empleado pendiente de resoluciÃ³n",
+    "EdiciÃƒÂ³n concurrente del mismo empleado pendiente de resoluciÃƒÂ³n",
     "Perfiles independientes y respaldo de toda la suite entre equipos pendientes de cierre"
   ]
 }
