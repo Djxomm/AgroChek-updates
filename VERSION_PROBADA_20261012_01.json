@@ -9,17 +9,23 @@
     {
       "nombre": "AgroChek_ERP_7.0.00_20261012_01_INSTALACION.exe",
       "bytes": 112322175,
-      "sha256": "8e756cfd8313c64365dafcbd664d3c3dab4c0e3d02d3c9461efc1165456457e8"
+      "sha256": "8e756cfd8313c64365dafcbd664d3c3dab4c0e3d02d3c9461efc1165456457e8",
+      "md5": "ccea6c4081282a12f56c5fd08c2398db",
+      "sha1": "f8f70b631fc16cbb18545add997ef2eab009e7db"
     },
     {
       "nombre": "AgroChek_ERP_7.0.00_20261012_01_ACTUALIZACION.exe",
       "bytes": 112322576,
-      "sha256": "8ba39eedb4d1fedc21a3d14cdf9262d498911da9b20e5eae019670acd4878a47"
+      "sha256": "8ba39eedb4d1fedc21a3d14cdf9262d498911da9b20e5eae019670acd4878a47",
+      "md5": "5f6a4e955f27755f86bcad5cc8826afa",
+      "sha1": "7323ea45f6407cbd88e31fa18866a1216821520d"
     },
     {
       "nombre": "AgroChek_Asistencia_7.0.00_30_PILOTO.apk",
       "bytes": 16332966,
-      "sha256": "f32171508d33730184a759e1dd07ab7f5c2caaf230cddd9779f09568c7fb7a9a"
+      "sha256": "f32171508d33730184a759e1dd07ab7f5c2caaf230cddd9779f09568c7fb7a9a",
+      "md5": "b40c1d8e079b5b58a4c7eb94c989fc57",
+      "sha1": "2a7954248f494bc149060afcf8b796a881c8ac0b"
     }
   ],
   "pruebas": [

@@ -18,5 +18,7 @@
   ],
   "estado": "PROBADA",
   "fecha_estado": "2026-10-12",
-  "notas": "Instalador y actualizador 20261012.01 marcados como probados. 90 pruebas automáticas, recorrido compilado en tres entornos y actualización aislada conservando datos."
+  "notas": "Instalador y actualizador 20261012.01 marcados como probados. 90 pruebas automáticas, recorrido compilado en tres entornos y actualización aislada conservando datos.",
+  "md5": "5f6a4e955f27755f86bcad5cc8826afa",
+  "sha1": "7323ea45f6407cbd88e31fa18866a1216821520d"
 }

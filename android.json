@@ -8,5 +8,7 @@
   "notas": "APK 30 marcada como probada: pruebas unitarias e integridad y firma comprobadas. Conserva la firma de desarrollo existente y los datos locales. Prueba física en TC26 pendiente. La candidata TLS 31 no está publicada; la APK 30 mantiene su conexión SQL vigente sin cifrado de tráfico.",
   "certificado_sha256": "c4aacb59c7a7a52741db8962c32dcbc93da9665df7cce689265803ef583d3531",
   "estado": "PROBADA",
-  "fecha_estado": "2026-10-12"
+  "fecha_estado": "2026-10-12",
+  "md5": "b40c1d8e079b5b58a4c7eb94c989fc57",
+  "sha1": "2a7954248f494bc149060afcf8b796a881c8ac0b"
 }
