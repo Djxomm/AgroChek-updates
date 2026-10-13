@@ -15,5 +15,8 @@
     "Impresión física pendiente en el equipo remoto",
     "Edición concurrente del mismo empleado pendiente de resolución",
     "Perfiles independientes y respaldo de toda la suite entre equipos pendientes de cierre"
-  ]
+  ],
+  "estado": "PROBADA",
+  "fecha_estado": "2026-10-12",
+  "notas": "Instalador y actualizador 20261012.01 marcados como probados. 90 pruebas automáticas, recorrido compilado en tres entornos y actualización aislada conservando datos."
 }
