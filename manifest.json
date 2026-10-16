@@ -1,24 +1,20 @@
 {
   "producto": "AgroChek ERP",
   "version": "7.0.00",
-  "compilacion": "20261012.01",
+  "compilacion": "20261015.01",
   "tipo": "solo_actualizacion",
   "requiere_instalacion_existente": true,
   "identidad_instalacion": "A42CA56D-5A1B-4DF3-BD86-761B41D844E7",
-  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261012.01/AgroChek_ERP_7.0.00_20261012_01_ACTUALIZACION.exe",
-  "sha256": "8ba39eedb4d1fedc21a3d14cdf9262d498911da9b20e5eae019670acd4878a47",
-  "bytes": 112322576,
-  "producto_sha256": "4f84a78c9c8f9b2ee294dc156d80b4d9932506fe0b9bd3b82621acb5728f2970",
+  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261015.01/AgroChek_ERP_7.0.00_20261015_01_ACTUALIZACION.exe",
+  "sha256": "53ec195e7fe0c24c608f5aebfaad03399700a45db431a4a7474c9a0e31c8fc86",
+  "bytes": 112322185,
+  "producto_sha256": "0adee44bea0ca8af47639a90ac8c55cff1611830145efbd1b54f71457e2dd27f",
   "instalacion_automatica_habilitada": true,
+  "estado": "VALIDADA_LOCALMENTE",
+  "fecha_estado": "2026-10-15",
+  "notas": "Esta actualización corrige problemas de rendimiento. Libera variables, callbacks e imágenes retenidos al cerrar la vista de Empleados y simplifica el ajuste de su barra de acciones. También habilita mostrar las notas reales del servidor en los avisos de futuras actualizaciones. Pruebas locales con datos ficticios y transporte lento simulado; no equivalen a una jornada completa en cada equipo.",
   "limites": [
-    "Nómina en desarrollo; consulta Sonora antes de estímulos, sin declaración ni PAC",
-    "Impresión física pendiente en el equipo remoto",
-    "Edición concurrente del mismo empleado pendiente de resolución",
-    "Perfiles independientes y respaldo de toda la suite entre equipos pendientes de cierre"
-  ],
-  "estado": "PROBADA",
-  "fecha_estado": "2026-10-12",
-  "notas": "Instalador y actualizador 20261012.01 marcados como probados. 90 pruebas automáticas, recorrido compilado en tres entornos y actualización aislada conservando datos.",
-  "md5": "5f6a4e955f27755f86bcad5cc8826afa",
-  "sha1": "7323ea45f6407cbd88e31fa18866a1216821520d"
+    "Pruebas y recorridos en una sola PC Windows; sin jornada completa en equipos remotos.",
+    "SQL y pérdida de red simulados; sin bases operativas ni dispositivos físicos."
+  ]
 }
