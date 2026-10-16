@@ -5,18 +5,18 @@
   "requiere_instalacion_existente": true,
   "identidad_instalacion": "A42CA56D-5A1B-4DF3-BD86-761B41D844E7",
   "instalacion_automatica_habilitada": true,
-  "compilacion": "20261016.06",
+  "compilacion": "20261016.07",
   "notas": [
-    "Corrige apellidos del Historial de Asistencia: recupera lecturas temporales del catalogo sin reiniciar.",
-    "Conserva paterno, materno y nombres completos; si no hay fuente verificable, avisa y detiene el reporte.",
-    "Actualizacion acumulativa: conserva conexion, sincronizacion, cuentas, pendientes y todas las mejoras Linux 20261016.05."
+    "Captura Nuez conserva el orden de las posiciones guardadas en pantalla y PDF.",
+    "Recibe tarimas y remisiones juntas y actualiza la vista automaticamente mientras Captura esta abierta, preservando pendientes sin conexion.",
+    "Evita descargar otra vez el detalle sin cambios. Conserva apellidos y todas las mejoras Linux 20261016.06."
   ],
   "linux": {
     "formato": "agrochek-linux-source-v1",
     "arquitectura": "amd64",
-    "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261016.06/AgroChek_ERP_7.0.00_20261016_06_LINUX_ACTUALIZACION.zip",
-    "sha256": "c6e73c624fa264dc75bca3e4e3404c6718613a98fafbc3cfcc75d7798e05a943",
-    "bytes": 19334211,
+    "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261016.07/AgroChek_ERP_7.0.00_20261016_07_LINUX_ACTUALIZACION.zip",
+    "sha256": "9f6784d86e1ca7642b50864b9b242b031ae0ceafc6ba187e1422f2f77941b03e",
+    "bytes": 19335629,
     "requirements_sha256": "ce302033af8ed02dcede6d4232836f3bcf8edac8620492b95c682cbe3a75229d"
   }
 }
