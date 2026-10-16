@@ -5,13 +5,17 @@
   "requiere_instalacion_existente": true,
   "identidad_instalacion": "A42CA56D-5A1B-4DF3-BD86-761B41D844E7",
   "instalacion_automatica_habilitada": true,
-  "compilacion": "20261015.02",
+  "compilacion": "20261015.06",
+  "notas": [
+    "Optimización de comunicaciones y sincronización: reduce consultas redundantes y mejora la recuperación ante interrupciones.",
+    "Incluye mejoras en asistencia y accesos de Wi-Fi y energía; estos accesos requieren la preparación puntual del equipo."
+  ],
   "linux": {
     "formato": "agrochek-linux-source-v1",
     "arquitectura": "amd64",
-    "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261015.02/AgroChek_ERP_7.0.00_20261015_02_LINUX_ACTUALIZACION.zip",
-    "sha256": "24170bc1016465d5b1d576765ec69fc5e9b83cc12ccf4dd3c4801261be3de44b",
-    "bytes": 19285836,
+    "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261015.06/AgroChek_ERP_7.0.00_20261015_06_LINUX_ACTUALIZACION.zip",
+    "sha256": "70dc69c8f889f91e77904e863c92c16c04e835de5cf9a9d5905ddb439c3e0fbc",
+    "bytes": 19321714,
     "requirements_sha256": "ce302033af8ed02dcede6d4232836f3bcf8edac8620492b95c682cbe3a75229d"
   }
 }
