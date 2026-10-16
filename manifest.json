@@ -1,21 +1,21 @@
 {
   "producto": "AgroChek ERP",
   "version": "7.0.00",
-  "compilacion": "20261016.03",
+  "compilacion": "20261016.04",
   "tipo": "solo_actualizacion",
   "requiere_instalacion_existente": true,
   "identidad_instalacion": "A42CA56D-5A1B-4DF3-BD86-761B41D844E7",
-  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261016.03/AgroChek_ERP_7.0.00_20261016_03_ACTUALIZACION.exe",
-  "sha256": "0b069b0582e642806340ac662c8ae35f94fce6283dcca1f515f60b88b8b4cccd",
-  "bytes": 112861704,
-  "producto_sha256": "ce2f12f7236a68e6df128cf626987384895486c45331fd103cc2d36f75f68e33",
+  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261016.04/AgroChek_ERP_7.0.00_20261016_04_ACTUALIZACION.exe",
+  "sha256": "91acc428ea99878af08124db66ef0dba2bf071be5568f703a0a339031e584442",
+  "bytes": 112866581,
+  "producto_sha256": "d5b793560eb02b289e84cd0b058a3800ac49199d26fbe71887140854ee86e2a1",
   "instalacion_automatica_habilitada": true,
   "estado": "VALIDADA_LOCALMENTE",
   "fecha_estado": "2026-10-16",
-  "notas": "Mejoras de sincronización y primer inicio. Reduce descargas completas y escrituras repetidas de Personal, conserva pendientes y recupera los intercambios sin duplicar registros. Corrige la primera consulta de Captura PC en un equipo nuevo y la lectura de libros de Recepción. Ajusta las tablas de Logística y la cabecera de Captura. Para crear el primer admin, un equipo sin cuentas debe recibir confirmación del servidor; las cuentas guardadas conservan el acceso sin conexión. Mantiene los cálculos, permisos y correcciones de reportes anteriores. En pruebas con SQL Server y un presupuesto compartido de 1 Mbit/s, las rutinas de sincronización conservadas en esta versión redujeron el ciclo estabilizado de 24.8 a 10.3 segundos; los dos primeros ciclos fueron más lentos.",
+  "notas": "Corrige el Historial de Asistencia de Nogalera El Alamito para conservar apellido paterno, apellido materno y nombres en sus columnas, incluidos los apellidos compuestos. Recupera la lectura del catálogo tras un fallo temporal. Si no se pueden verificar los apellidos separados, muestra un aviso y detiene la exportación. Conserva las mejoras de conexión, sincronización, descarga incremental y primer inicio de 20261016.03.",
   "limites": [
-    "299 casos de código del ejecutable y tres recorridos Windows; dos comparaciones históricas de esa selección omitidas por falta de archivos.",
-    "Medición SQL controlada de las mismas rutinas de sincronización de16.02: 1Mbit/s compartido, sin jornada completa ni captura física del enlace.",
-    "Las primeras dos vueltas de sincronización pueden ser más lentas; el resultado estabilizado no garantiza tiempos en otros equipos."
+    "63 casos del código del ejecutable y tres recorridos Windows; instalador verificado por extracción, sin ejecutarlo.",
+    "SQL simulado y perfiles aislados en una PC. Sin nueva medición de red o SQL real.",
+    "La exportación de Nogalera se detiene si no hay campos separados o un catálogo compatible; no se infieren apellidos. Linux tiene su propio paquete y validación."
   ]
 }
