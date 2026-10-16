@@ -5,18 +5,18 @@
   "requiere_instalacion_existente": true,
   "identidad_instalacion": "A42CA56D-5A1B-4DF3-BD86-761B41D844E7",
   "instalacion_automatica_habilitada": true,
-  "compilacion": "20261015.09",
+  "compilacion": "20261016.05",
   "notas": [
-    "Corrige recursos retenidos y refresca los datos confirmados sin esperar a otros modulos.",
-    "Reduce descargas repetidas de Personal mediante grupos verificados; conserva juntos padron y checadas.",
-    "Captura PC exige confirmacion de descarga aunque el texto recibido indique sincronizado; envio sin descarga conserva aviso pendiente."
+    "Reduce consultas y escrituras repetidas de Personal; conserva la aceptacion conjunta del padron y checadas.",
+    "Prepara la primera consulta de Captura PC en equipos nuevos y corrige Logistica, lecturas Excel y apertura PDF en Linux.",
+    "Mejora cabecera de clima y ayuda de Control de Nuez; conserva las guardas de conexion y datos pendientes."
   ],
   "linux": {
     "formato": "agrochek-linux-source-v1",
     "arquitectura": "amd64",
-    "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261015.09/AgroChek_ERP_7.0.00_20261015_09_LINUX_ACTUALIZACION.zip",
-    "sha256": "68b69584996d50b73cd174c7f5ad0df7d4da43e14b6fd3673024bec0c2a435a0",
-    "bytes": 19332423,
+    "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261016.05/AgroChek_ERP_7.0.00_20261016_05_LINUX_ACTUALIZACION.zip",
+    "sha256": "cb3982698e7a5a4042893b90262097a90f0aa0c2393b7fb06a213469ceb2db74",
+    "bytes": 19333515,
     "requirements_sha256": "ce302033af8ed02dcede6d4232836f3bcf8edac8620492b95c682cbe3a75229d"
   }
 }
