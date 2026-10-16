@@ -1,20 +1,20 @@
 {
   "producto": "AgroChek ERP",
   "version": "7.0.00",
-  "compilacion": "20261015.06",
+  "compilacion": "20261015.07",
   "tipo": "solo_actualizacion",
   "requiere_instalacion_existente": true,
   "identidad_instalacion": "A42CA56D-5A1B-4DF3-BD86-761B41D844E7",
-  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261015.06/AgroChek_ERP_7.0.00_20261015_06_ACTUALIZACION.exe",
-  "sha256": "38cda7d85004b05fec61f906ea5341e4878960dce9507591966b059259b80046",
-  "bytes": 112341741,
-  "producto_sha256": "94cf681a14531e4c5f486a21854ffae968b1938d210ebc20ff032c9e9d13d5d0",
+  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261015.07/AgroChek_ERP_7.0.00_20261015_07_ACTUALIZACION.exe",
+  "sha256": "ad04c963557cddce306124c8564584d8310d53b39c6c46f6fb94e1a81a54db49",
+  "bytes": 112343225,
+  "producto_sha256": "c4a4c8af28680e58fb3916d84f568c36fcca0ab53c2e9bfc3f95c65fc27ec2e6",
   "instalacion_automatica_habilitada": true,
   "estado": "VALIDADA_LOCALMENTE",
   "fecha_estado": "2026-10-15",
-  "notas": "Versión 7.0.00, compilación 20261015.06. El reporte de asistencia incorpora el logo original de Nogalera El Alamito y diseño en verdes en PDF, Excel e impresión, con encabezados, filtros y horarios completos. Mantiene Apellido paterno, Apellido materno y Nombres. Ayuda aumenta moderadamente, con fondo verde claro y amarillo al pasar el cursor; Salir conserva tamaño y función con fondo rojo. Muestra versión y compilación en los avisos de actualización. Incluye las optimizaciones e integridad de 20261015.05 y liberación del cilindro al guardar Procesada.",
+  "notas": "Actualización de seguridad y corrección de errores. Versión 7.0.00, compilación 20261015.07. Corrige Centro operativo del historial de asistencia para tomar la empresa seleccionada al iniciar sesión: Nogalera El Alamito o Campo Agrícola El Socorro. Se aplica en PDF, Excel y vista previa/impresión. No cambia la empresa ni adscripción de ningún empleado. Conserva los nombres completos, filtros, horarios, logo y diseño de los reportes, los controles de Ayuda y Salir y las correcciones acumuladas de 20261015.06. Esta entrega corrige el contexto del reporte; no se atribuyen vulnerabilidades resueltas.",
   "limites": [
     "Pruebas y recorridos en una sola PC Windows; sin jornada completa en equipos remotos.",
-    "Cortes, envíos e integridad probados con bases ficticias; medición puntual de consultas SQL en solo lectura; sin pruebas con dispositivos físicos."
+    "Datos y cambios de empresa verificados con bases ficticias; sin modificar bases reales ni probar dispositivos físicos."
   ]
 }
