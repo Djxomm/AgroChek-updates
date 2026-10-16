@@ -14,7 +14,7 @@
   "linux": {
     "formato": "agrochek-linux-source-v1",
     "arquitectura": "amd64",
-    "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/untagged-3ed1fdb6eeebfbefab6c/AgroChek_ERP_7.0.00_20261015_08_LINUX_ACTUALIZACION.zip",
+    "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261015.08/AgroChek_ERP_7.0.00_20261015_08_LINUX_ACTUALIZACION.zip",
     "sha256": "061ae42c0cfe95c51e7e270ffaf1b9120b30921a9e8272387e6c09084ba91215",
     "bytes": 19332390,
     "requirements_sha256": "ce302033af8ed02dcede6d4232836f3bcf8edac8620492b95c682cbe3a75229d"
