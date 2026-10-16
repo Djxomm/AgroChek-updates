@@ -1,21 +1,21 @@
 {
   "producto": "AgroChek ERP",
   "version": "7.0.00",
-  "compilacion": "20261016.08",
+  "compilacion": "20261016.10",
   "tipo": "solo_actualizacion",
   "requiere_instalacion_existente": true,
   "identidad_instalacion": "A42CA56D-5A1B-4DF3-BD86-761B41D844E7",
-  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261016.08/AgroChek_ERP_7.0.00_20261016_08_ACTUALIZACION.exe",
-  "sha256": "31ecc36265f98a3693b6a96e63e8f190f15cc0acf773350ed657580ccb74d644",
-  "bytes": 112871166,
-  "producto_sha256": "2b6501fc81b8b812283f4673b12a60715330cab84dd688ca5c84a7fc02b38eb9",
+  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261016.10/AgroChek_ERP_7.0.00_20261016_10_ACTUALIZACION.exe",
+  "sha256": "aa44ba66ff2b840b794db66c05a558bb2bffdcd3e0166f3684ecd7d9cd1beece",
+  "bytes": 112873365,
+  "producto_sha256": "11831c7499407e5b51fe5580780e371b4b2f72bdd4b38e870f27691f59d37d11",
   "instalacion_automatica_habilitada": true,
   "estado": "VALIDADA_LOCALMENTE",
   "fecha_estado": "2026-10-16",
-  "notas": "Conserva el orden físico capturado de las tarimas en Layout embarque y en el juego PDF, sin reordenarlo por calibre. Recibe embarques en el ciclo temprano de Captura Nuez y consulta cambios cada 2 segundos mientras el panel está visible, con el coordinador existente. Muestra embarques recibidos aunque existan conflictos de papeletas, manteniendo el aviso y los pendientes. Conserva la corrección de apellidos de 20261016.04.",
+  "notas": "Corrige el bloqueo del envío de Captura Nuez cuando un historial grande produce el error SQL 7125 con el controlador heredado de Windows. Recibe los textos largos en variables NVARCHAR(MAX) antes de escribir, conservando el contenido íntegro y los parámetros. Mantiene las comprobaciones de identidad y de diferencias, el layout y la recepción automática de 20261016.08, y la separación de apellidos de 20261016.04.",
   "limites": [
-    "SQL simulado y perfiles aislados en una PC; el ciclo de 2s se comprobó con reloj controlado, sin medir latencia operativa.",
-    "NAL7 no se encontró en las consultas de sólo lectura a elva_importer. No se modificaron datos operativos ni se resolvieron los conflictos del equipo remoto.",
-    "Los pendientes locales y conflictos se conservan. Linux requiere su propia integración y validación."
+    "125 pruebas sobre código extraído del producto y tres recorridos Windows; instalador verificado por extracción, sin ejecutarlo.",
+    "Texto completo probado contra SQL real con el controlador heredado SQLSRV32.DLL. No requiere cambiar el controlador.",
+    "Conserva los controles de identidad y los conflictos de datos; no los descarta ni elige automáticamente una versión. Linux requiere integración y validación propias."
   ]
 }
