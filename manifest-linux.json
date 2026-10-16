@@ -7,13 +7,14 @@
   "instalacion_automatica_habilitada": true,
   "compilacion": "20261015.08",
   "notas": [
-    "OptimizaciÃ³n de comunicaciones y sincronizaciÃ³n: reduce consultas redundantes y mejora la recuperaciÃ³n ante interrupciones.",
-    "Incluye mejoras en asistencia y accesos de Wi-Fi y energÃ­a; estos accesos requieren la preparaciÃ³n puntual del equipo."
+    "Corrige recursos retenidos y refresca los datos confirmados sin esperar a otros modulos.",
+    "Reduce descargas repetidas de Personal mediante grupos verificados; conserva juntos padron y checadas.",
+    "Incluye las correcciones acumuladas de AgroChek OS."
   ],
   "linux": {
     "formato": "agrochek-linux-source-v1",
     "arquitectura": "amd64",
-    "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/untagged-33e12330286b81ee52e9/AgroChek_ERP_7.0.00_20261015_08_LINUX_ACTUALIZACION.zip",
+    "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/linux-v7.0.00-20261015.08/AgroChek_ERP_7.0.00_20261015_08_LINUX_ACTUALIZACION.zip",
     "sha256": "061ae42c0cfe95c51e7e270ffaf1b9120b30921a9e8272387e6c09084ba91215",
     "bytes": 19332390,
     "requirements_sha256": "ce302033af8ed02dcede6d4232836f3bcf8edac8620492b95c682cbe3a75229d"
