@@ -1,21 +1,21 @@
 {
   "producto": "AgroChek ERP",
   "version": "7.0.00",
-  "compilacion": "20261016.04",
+  "compilacion": "20261016.08",
   "tipo": "solo_actualizacion",
   "requiere_instalacion_existente": true,
   "identidad_instalacion": "A42CA56D-5A1B-4DF3-BD86-761B41D844E7",
-  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261016.04/AgroChek_ERP_7.0.00_20261016_04_ACTUALIZACION.exe",
-  "sha256": "91acc428ea99878af08124db66ef0dba2bf071be5568f703a0a339031e584442",
-  "bytes": 112866581,
-  "producto_sha256": "d5b793560eb02b289e84cd0b058a3800ac49199d26fbe71887140854ee86e2a1",
+  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261016.08/AgroChek_ERP_7.0.00_20261016_08_ACTUALIZACION.exe",
+  "sha256": "31ecc36265f98a3693b6a96e63e8f190f15cc0acf773350ed657580ccb74d644",
+  "bytes": 112871166,
+  "producto_sha256": "2b6501fc81b8b812283f4673b12a60715330cab84dd688ca5c84a7fc02b38eb9",
   "instalacion_automatica_habilitada": true,
   "estado": "VALIDADA_LOCALMENTE",
   "fecha_estado": "2026-10-16",
-  "notas": "Corrige el Historial de Asistencia de Nogalera El Alamito para conservar apellido paterno, apellido materno y nombres en sus columnas, incluidos los apellidos compuestos. Recupera la lectura del catálogo tras un fallo temporal. Si no se pueden verificar los apellidos separados, muestra un aviso y detiene la exportación. Conserva las mejoras de conexión, sincronización, descarga incremental y primer inicio de 20261016.03.",
+  "notas": "Conserva el orden físico capturado de las tarimas en Layout embarque y en el juego PDF, sin reordenarlo por calibre. Recibe embarques en el ciclo temprano de Captura Nuez y consulta cambios cada 2 segundos mientras el panel está visible, con el coordinador existente. Muestra embarques recibidos aunque existan conflictos de papeletas, manteniendo el aviso y los pendientes. Conserva la corrección de apellidos de 20261016.04.",
   "limites": [
-    "63 casos del código del ejecutable y tres recorridos Windows; instalador verificado por extracción, sin ejecutarlo.",
-    "SQL simulado y perfiles aislados en una PC. Sin nueva medición de red o SQL real.",
-    "La exportación de Nogalera se detiene si no hay campos separados o un catálogo compatible; no se infieren apellidos. Linux tiene su propio paquete y validación."
+    "SQL simulado y perfiles aislados en una PC; el ciclo de 2s se comprobó con reloj controlado, sin medir latencia operativa.",
+    "NAL7 no se encontró en las consultas de sólo lectura a elva_importer. No se modificaron datos operativos ni se resolvieron los conflictos del equipo remoto.",
+    "Los pendientes locales y conflictos se conservan. Linux requiere su propia integración y validación."
   ]
 }
