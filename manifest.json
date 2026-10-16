@@ -1,20 +1,21 @@
 {
   "producto": "AgroChek ERP",
   "version": "7.0.00",
-  "compilacion": "20261015.07",
+  "compilacion": "20261016.03",
   "tipo": "solo_actualizacion",
   "requiere_instalacion_existente": true,
   "identidad_instalacion": "A42CA56D-5A1B-4DF3-BD86-761B41D844E7",
-  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261015.07/AgroChek_ERP_7.0.00_20261015_07_ACTUALIZACION.exe",
-  "sha256": "ad04c963557cddce306124c8564584d8310d53b39c6c46f6fb94e1a81a54db49",
-  "bytes": 112343225,
-  "producto_sha256": "c4a4c8af28680e58fb3916d84f568c36fcca0ab53c2e9bfc3f95c65fc27ec2e6",
+  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261016.03/AgroChek_ERP_7.0.00_20261016_03_ACTUALIZACION.exe",
+  "sha256": "0b069b0582e642806340ac662c8ae35f94fce6283dcca1f515f60b88b8b4cccd",
+  "bytes": 112861704,
+  "producto_sha256": "ce2f12f7236a68e6df128cf626987384895486c45331fd103cc2d36f75f68e33",
   "instalacion_automatica_habilitada": true,
   "estado": "VALIDADA_LOCALMENTE",
-  "fecha_estado": "2026-10-15",
-  "notas": "Actualización de seguridad y corrección de errores. Versión 7.0.00, compilación 20261015.07. Corrige Centro operativo del historial de asistencia para tomar la empresa seleccionada al iniciar sesión: Nogalera El Alamito o Campo Agrícola El Socorro. Se aplica en PDF, Excel y vista previa/impresión. No cambia la empresa ni adscripción de ningún empleado. Conserva los nombres completos, filtros, horarios, logo y diseño de los reportes, los controles de Ayuda y Salir y las correcciones acumuladas de 20261015.06. Esta entrega corrige el contexto del reporte; no se atribuyen vulnerabilidades resueltas.",
+  "fecha_estado": "2026-10-16",
+  "notas": "Mejoras de sincronización y primer inicio. Reduce descargas completas y escrituras repetidas de Personal, conserva pendientes y recupera los intercambios sin duplicar registros. Corrige la primera consulta de Captura PC en un equipo nuevo y la lectura de libros de Recepción. Ajusta las tablas de Logística y la cabecera de Captura. Para crear el primer admin, un equipo sin cuentas debe recibir confirmación del servidor; las cuentas guardadas conservan el acceso sin conexión. Mantiene los cálculos, permisos y correcciones de reportes anteriores. En pruebas con SQL Server y un presupuesto compartido de 1 Mbit/s, las rutinas de sincronización conservadas en esta versión redujeron el ciclo estabilizado de 24.8 a 10.3 segundos; los dos primeros ciclos fueron más lentos.",
   "limites": [
-    "Pruebas y recorridos en una sola PC Windows; sin jornada completa en equipos remotos.",
-    "Datos y cambios de empresa verificados con bases ficticias; sin modificar bases reales ni probar dispositivos físicos."
+    "299 casos de código del ejecutable y tres recorridos Windows; dos comparaciones históricas de esa selección omitidas por falta de archivos.",
+    "Medición SQL controlada de las mismas rutinas de sincronización de16.02: 1Mbit/s compartido, sin jornada completa ni captura física del enlace.",
+    "Las primeras dos vueltas de sincronización pueden ser más lentas; el resultado estabilizado no garantiza tiempos en otros equipos."
   ]
 }
