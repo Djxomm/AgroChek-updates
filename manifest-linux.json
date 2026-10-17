@@ -5,18 +5,18 @@
   "requiere_instalacion_existente": true,
   "identidad_instalacion": "A42CA56D-5A1B-4DF3-BD86-761B41D844E7",
   "instalacion_automatica_habilitada": true,
-  "compilacion": "20261016.07",
+  "compilacion": "20261016.08",
   "notas": [
-    "Captura Nuez conserva el orden de las posiciones guardadas en pantalla y PDF.",
-    "Recibe tarimas y remisiones juntas y actualiza la vista automaticamente mientras Captura esta abierta, preservando pendientes sin conexion.",
-    "Evita descargar otra vez el detalle sin cambios. Conserva apellidos y todas las mejoras Linux 20261016.06."
+    "Corrige el envio de historiales grandes sin recortar texto ni Unicode.",
+    "Conserva los controles de identidad y los conflictos pendientes; no elige valores automaticamente.",
+    "Acumulativa: incluye acomodo y recepcion automatica de Captura Nuez de Linux 20261016.07 y mejoras anteriores."
   ],
   "linux": {
     "formato": "agrochek-linux-source-v1",
     "arquitectura": "amd64",
-    "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261016.07/AgroChek_ERP_7.0.00_20261016_07_LINUX_ACTUALIZACION.zip",
-    "sha256": "9f6784d86e1ca7642b50864b9b242b031ae0ceafc6ba187e1422f2f77941b03e",
-    "bytes": 19335629,
+    "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261016.08/AgroChek_ERP_7.0.00_20261016_08_LINUX_ACTUALIZACION.zip",
+    "sha256": "a97e3430de34209b40bd6044e45b7608de2fc5596aba0c1b60e27bb0ef932b45",
+    "bytes": 19335989,
     "requirements_sha256": "ce302033af8ed02dcede6d4232836f3bcf8edac8620492b95c682cbe3a75229d"
   }
 }
