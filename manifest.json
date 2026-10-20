@@ -1,21 +1,21 @@
 {
   "producto": "AgroChek ERP",
   "version": "7.0.00",
-  "compilacion": "20261019.01",
+  "compilacion": "20261020.01",
   "tipo": "solo_actualizacion",
   "requiere_instalacion_existente": true,
   "identidad_instalacion": "A42CA56D-5A1B-4DF3-BD86-761B41D844E7",
-  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261019.01/AgroChek_ERP_7.0.00_20261019_01_SEGURIDAD_ACTUALIZACION.exe",
-  "sha256": "46058b9e37728f37b60e0b7fd1ca1f30d815913d7449a6a1e22c6b9260d3f591",
-  "bytes": 114418185,
-  "producto_sha256": "48165d9e4ee950fe61e9857527c28a645cc18735d0d8d341e140382281d74dbd",
+  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261020.01/AgroChek_ERP_7.0.00_20261020_01_ACTUALIZACION.exe",
+  "sha256": "019c2d0813caa131c7a4781c12941b5ca43eb2e67e91f970f4347959a27e21aa",
+  "bytes": 114429986,
+  "producto_sha256": "c6d06d8f1b275c4ae60a9cd9e420b2878d999f529545d3dc36ad02489295da49",
   "instalacion_automatica_habilitada": true,
   "estado": "VALIDADA_LOCALMENTE",
-  "fecha_estado": "2026-10-19",
-  "notas": "Actualización de seguridad 20261019.01. Corrige el error name 'date' is not defined que impedía sincronizar Recepción Nuez / Embarques al procesar operaciones pendientes sin fecha de cierre. Conserva las capturas pendientes y la configuración existente.",
+  "fecha_estado": "2026-10-20",
+  "notas": "Edición del registro seleccionado en Pallets y Papeletas. Permisos independientes por usuario: Editar pallets y Editar papeletas, comprobados al abrir y al guardar. Las filas con conflicto se marcan en naranja y el detalle del error se muestra en rojo. Conserva la identidad del registro y los datos existentes al corregirlo. Los permisos nuevos deben asignarse expresamente en Administración de usuarios y requieren volver a iniciar sesión.",
   "limites": [
-    "50 pruebas con código del producto compilado; SQL simulado sin modificar producción.",
-    "Tres recorridos Windows y arranque aislado; instalador verificado por extracción.",
-    "Pendiente verificar la sincronización en Laboratorio después de instalar."
+    "15 pruebas con código del producto final, tres recorridos binarios y arranque normal en perfil vacío.",
+    "Instalador comprobado por extracción estática; no instalado en el equipo de Alma.",
+    "No se escribió ni se validó el servidor SQL de producción durante esta tarea."
   ]
 }
