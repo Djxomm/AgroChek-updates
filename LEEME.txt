@@ -1,51 +1,13 @@
-AgroChek ERP 7.0.00 — Compilación 20261006.07
+AgroChek ERP 7.0.00 - Compilación 20261020.01
 
-Paquete de correcciones de escritorio. No es certificación del cierre integral.
+Descarga: https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261020.01/AgroChek_ERP_7.0.00_20261020_01_ACTUALIZACION.exe
 
-1. Guarde sus capturas y cierre AgroChek antes de ejecutar el paquete.
-2. INSTALADOR permite instalación nueva y actualización.
-3. ACTUALIZACION requiere una instalación existente del mismo usuario de Windows.
-4. En Configuración, conectado a la base deseada, use Crear/actualizar tablas.
-   Confirme el nombre de la base en el diálogo. Incluye ahora las cinco tablas
-   PC/web de Captura Nuez. No borra registros; si falla, revierte la transacción.
-5. admin ve Actualización en línea y Puente local. Kevin ve únicamente los
-   ajustes del puente. Otros usuarios no pueden guardar esos ajustes.
-6. Puente local acepta IP/nombre, puerto y clave protegida por Windows.
-   Es configuración preparatoria: NO habilita transporte entre PCs.
-7. Actualización en línea de Configuración permite buscar y descargar el paquete con
-   progreso y verificación de tamaño y SHA-256; admin confirma antes de abrir el instalador.
-   La instalación sigue mostrando el asistente. No es una instalación silenciosa.
-8. Al guardar un empleado o su fotografía se ofrece la vista previa para imprimir
-   su gafete. La función manual se conserva. Las fotos nuevas mantienen su fondo original.
-9. El contador general incluye Captura Nuez PC/Web. Un error o captura pendiente
-   mantiene el estado Sincronización pendiente. Seleccione la fila para leer el mensaje
-   completo. La barra verde se oculta al terminar.
-10. El actualizador no crea tablas SQL. Si faltan tablas, use Configuración →
-    Crear/actualizar tablas, confirme el destino y vuelva a Sincronizar toda la suite.
-   NO instala automáticamente ni aplica migraciones por sí sola.
-8. El indicador muestra disponibilidad del ciclo actual y conserva aparte el
-   estado de sincronización. El naranja está preparado para un puente confirmado,
-   pero no se activa mientras el transporte siga pendiente.
+1. Guarde sus capturas y cierre AgroChek antes de ejecutar el actualizador.
+2. Se requiere una instalación existente para el mismo usuario de Windows.
+3. El instalador conserva bases y configuración y hace una copia local previa.
+4. En Administración de usuarios, dentro de Captura Nuez, asigne según corresponda los permisos Editar pallets y Editar papeletas. No se asignan automáticamente a las cuentas existentes. Después, el usuario debe volver a iniciar sesión.
+5. Seleccione el registro en Pallets o Papeletas y use Editar. Las filas con conflicto aparecen en naranja; el detalle del error aparece en rojo.
 
-Validación: 39 pruebas focalizadas/regresión; migración ejecutada dos veces en
-ERP_NOGALERA_PRUEBA; 24 operaciones enviadas en dos lotes, reintento sin duplicados;
-tres recorridos compilados y arranque del producto aislado.
+SHA-256: 019c2d0813caa131c7a4781c12941b5ca43eb2e67e91f970f4347959a27e21aa
 
-Pendientes: HTTPS y autenticación del puente, captura/reenvío entre PCs, ruta
-alternativa de la APK, aislamiento de datos y pendientes al cambiar de base,
-recuperación física con desconexión/reconexión y actualización automática.
-Los pendientes de autorización de períodos y cierre integral de Nómina siguen
-documentados en AVANCE_ERP.md. No se probaron servicios PAC ni impresión física.
-
-No se modificó elva_importer durante las pruebas. No se instaló sobre producción.
-El manual general anterior .07 sigue como referencia; esta nota describe .08.
-
-Correcciones 20261006.04: estabilización del panel Captura Nuez / Sincronizar para evitar el parpadeo y las llamadas anidadas al reajustar altura. Manifiesto ordenado por calibre: JUMBO, OS1, OS2, XL, LG, MD y SM, tanto en vista previa como al imprimir. Conserva registros y totales.
-
-Compilación 20261006.05: Impresoras y Cámara disponibles para usuarios con permiso de Configuración. El acceso se comprueba al abrir y al guardar; la configuración SQL y el mantenimiento conservan sus restricciones. Cada selección conserva las preferencias de los demás dispositivos.
-
-Compilación 20261006.06: al guardar el Puente local en el equipo anfitrión, admin o Kevin autorizan con Windows una regla TCP entrante para el puerto seleccionado, sólo en perfil privado y desde la misma subred. Verificación posterior obligatoria; un rechazo no se presenta como puerto abierto. No abre el Firewall local al configurar un equipo remoto. Actualiza sólo la regla AgroChek-Puente-Local-TCP al cambiar puerto. No inicia el servicio ni habilita el respaldo integral entre PCs; el servicio web actual usa 8010 por defecto. Las pruebas reales de UAC/Firewall entre equipos están pendientes.
-
-Incluye iconos de red y actualización en Puente local y Actualización en línea, con el sistema visual existente y los mismos permisos.
-
-Compilación 20261006.07: descargas temporales propias con limpieza después de cerrar el instalador y recuperación en el siguiente arranque. Depurar sistema permite limpiar descargas antiguas marcadas; conserva las recientes (24 horas), procesos activos y archivos ajenos. No borra datos ni respaldos. Las descargas antiguas sin marca se conservan, salvo el paquete de esta entrega cuando el propio instalador finalizado registra su origen dentro de la caché del usuario. No se debe interpretar limpieza de un instalador cancelado como actualización completada.
+Paquete publicado y descarga verificada. No se ha instalado en el equipo de Alma. Los paquetes anteriores de Windows se retiraron de GitHub; Android y Linux conservan sus canales.
