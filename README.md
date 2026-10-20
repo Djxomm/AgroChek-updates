@@ -1,23 +1,17 @@
 # Actualizaciones AgroChek ERP
 
-Compilación 20261006.07 disponible en [Releases](https://github.com/Djxomm/AgroChek-updates/releases/tag/v7.0.00-20261006.07).
+## Windows: compilación 20261020.01
 
-Descargue el paquete ACTUALIZACION. Requiere AgroChek ERP ya instalado para el mismo usuario de Windows; rechaza una instalación desde cero. El instalador completo y el código permanecen en el repositorio privado.
+[Descargar actualizador](https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261020.01/AgroChek_ERP_7.0.00_20261020_01_ACTUALIZACION.exe) · [Notas de la versión](https://github.com/Djxomm/AgroChek-updates/releases/tag/v7.0.00-20261020.01)
 
-Esta actualización conserva el fondo original de las fotografías nuevas y ofrece imprimir el gafete después de guardar el empleado o su foto. Conserva el acceso manual a gafetes.
+Requiere una instalación existente de AgroChek ERP 7.0.00 para el mismo usuario de Windows. Guarde sus capturas y cierre AgroChek antes de ejecutar el paquete. El instalador conserva bases y configuración y realiza la copia local previa a actualizar.
 
-Corrige el contador general y el resultado de Captura Nuez PC/Web. La barra verde aparece durante el proceso y desaparece al terminar; seleccione un módulo para leer su resultado completo. Si faltan tablas SQL, admin debe usar Configuración → Crear/actualizar tablas para la base conectada y volver a sincronizar. Instalar la actualización no ejecuta esa migración automáticamente.
+Edición del registro seleccionado en Pallets y Papeletas. Permisos independientes por usuario: Editar pallets y Editar papeletas, comprobados al abrir y al guardar. Las filas con conflicto se marcan en naranja y el detalle del error se muestra en rojo. Conserva la identidad del registro y los datos existentes al corregirlo. Los permisos nuevos deben asignarse expresamente en Administración de usuarios y requieren volver a iniciar sesión.
 
-Incluye el actualizador de Configuración para admin: descarga con porcentaje, verificación de tamaño y SHA-256 y confirmación antes de abrir el instalador. No realiza instalaciones silenciosas. Consulte LEEME.txt y manifest.json.
+SHA-256 del actualizador: `019c2d0813caa131c7a4781c12941b5ca43eb2e67e91f970f4347959a27e21aa`.
 
-Continúan pendientes la impresión física remota, la firma compatible de APK y el respaldo entre equipos de todos los módulos. Nómina se conserva en su estado actual. Esta entrega no certifica el cierre integral de la suite.
+Validación local: 15 pruebas con código del producto final, tres recorridos del ejecutable de prueba y arranque normal en un perfil vacío. El instalador fue comprobado por extracción estática. No se ha instalado en el equipo de Alma ni se declara validado el servidor SQL de producción.
 
-Correcciones 20261006.04: estabilización del panel Captura Nuez / Sincronizar para evitar el parpadeo y las llamadas anidadas al reajustar altura. Manifiesto ordenado por calibre: JUMBO, OS1, OS2, XL, LG, MD y SM, tanto en vista previa como al imprimir. Conserva registros y totales.
+El canal de actualización de Windows está en [manifest.json](manifest.json). Las versiones anteriores de los paquetes de Windows se retiraron de las descargas. El actualizador requiere una instalación existente; no sustituye al instalador completo.
 
-Compilación 20261006.05: Impresoras y Cámara disponibles para usuarios con permiso de Configuración. El acceso se comprueba al abrir y al guardar; la configuración SQL y el mantenimiento conservan sus restricciones. Cada selección conserva las preferencias de los demás dispositivos.
-
-Compilación 20261006.06: al guardar el Puente local en el equipo anfitrión, admin o Kevin autorizan con Windows una regla TCP entrante para el puerto seleccionado, sólo en perfil privado y desde la misma subred. Verificación posterior obligatoria; un rechazo no se presenta como puerto abierto. No abre el Firewall local al configurar un equipo remoto. Actualiza sólo la regla AgroChek-Puente-Local-TCP al cambiar puerto. No inicia el servicio ni habilita el respaldo integral entre PCs; el servicio web actual usa 8010 por defecto. Las pruebas reales de UAC/Firewall entre equipos están pendientes.
-
-Incluye iconos de red y actualización en Puente local y Actualización en línea, con el sistema visual existente y los mismos permisos.
-
-Compilación 20261006.07: descargas temporales propias con limpieza después de cerrar el instalador y recuperación en el siguiente arranque. Depurar sistema permite limpiar descargas antiguas marcadas; conserva las recientes (24 horas), procesos activos y archivos ajenos. No borra datos ni respaldos. Las descargas antiguas sin marca se conservan, salvo el paquete de esta entrega cuando el propio instalador finalizado registra su origen dentro de la caché del usuario. No se debe interpretar limpieza de un instalador cancelado como actualización completada.
+Los canales de [Android](android.json) y [Linux](manifest-linux.json) se conservan por separado.
