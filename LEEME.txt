@@ -1,13 +1,13 @@
-AgroChek ERP 7.0.00 - Compilación 20261020.01
+AgroChek ERP 7.0.00 - Compilación 20261020.02
 
-Descarga: https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261020.01/AgroChek_ERP_7.0.00_20261020_01_ACTUALIZACION.exe
+Descarga: https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261020.02/AgroChek_ERP_7.0.00_20261020_02_ACTUALIZACION.exe
 
 1. Guarde sus capturas y cierre AgroChek antes de ejecutar el actualizador.
 2. Se requiere una instalación existente para el mismo usuario de Windows.
 3. El instalador conserva bases y configuración y hace una copia local previa.
-4. En Administración de usuarios, dentro de Captura Nuez, asigne según corresponda los permisos Editar pallets y Editar papeletas. No se asignan automáticamente a las cuentas existentes. Después, el usuario debe volver a iniciar sesión.
+4. En Administración de usuarios, dentro de Captura Nuez, asigne según corresponda los permisos Editar pallets y Editar papeletas. Root y admin activos con nivel Administrador conservan ese acceso. Los permisos no se asignan automáticamente a las demás cuentas. Después, el usuario debe volver a iniciar sesión.
 5. Seleccione el registro en Pallets o Papeletas y use Editar. Las filas con conflicto aparecen en naranja; el detalle del error aparece en rojo.
 
-SHA-256: 019c2d0813caa131c7a4781c12941b5ca43eb2e67e91f970f4347959a27e21aa
+SHA-256: 9530c7a26f1cf1973f7e628678ebc13c8a655a85cddee3465b9e760eb3addc87
 
-Paquete publicado y descarga verificada. No se ha instalado en el equipo de Alma. Los paquetes anteriores de Windows se retiraron de GitHub; Android y Linux conservan sus canales.
+Paquete publicado y descarga verificada. No se ha instalado en los equipos remotos. Los paquetes anteriores de Windows se retiraron de GitHub; Android y Linux conservan sus canales.
