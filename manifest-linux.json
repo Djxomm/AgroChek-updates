@@ -5,18 +5,18 @@
   "requiere_instalacion_existente": true,
   "identidad_instalacion": "A42CA56D-5A1B-4DF3-BD86-761B41D844E7",
   "instalacion_automatica_habilitada": true,
-  "compilacion": "20261016.08",
+  "compilacion": "20261021.01",
   "notas": [
-    "Corrige el envio de historiales grandes sin recortar texto ni Unicode.",
-    "Conserva los controles de identidad y los conflictos pendientes; no elige valores automaticamente.",
-    "Acumulativa: incluye acomodo y recepcion automatica de Captura Nuez de Linux 20261016.07 y mejoras anteriores."
+    "Cuentas personales de Debian con una sola entrada al ERP, después de autorización y revisión administrativa.",
+    "En equipos existentes, ejecutar primero la preparación incluida y revisar usuarios desde Equipo. La actualización automática conserva el acceso anterior hasta preparar el sistema.",
+    "Catálogo firmado independiente de SQL; clave privada generada localmente después de aprobar. Conserva datos y correcciones acumulativas de 20261016.08."
   ],
   "linux": {
     "formato": "agrochek-linux-source-v1",
     "arquitectura": "amd64",
-    "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261016.08/AgroChek_ERP_7.0.00_20261016_08_LINUX_ACTUALIZACION.zip",
-    "sha256": "a97e3430de34209b40bd6044e45b7608de2fc5596aba0c1b60e27bb0ef932b45",
-    "bytes": 19335989,
+    "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261021.01/AgroChek_ERP_7.0.00_20261021_01_LINUX_ACTUALIZACION.zip",
+    "sha256": "f779dadfe6627f8f6f83460a518593ea62e464a7c0972fbbe946ffd7fc478836",
+    "bytes": 19401701,
     "requirements_sha256": "ce302033af8ed02dcede6d4232836f3bcf8edac8620492b95c682cbe3a75229d"
   }
 }
