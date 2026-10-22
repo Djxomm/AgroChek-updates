@@ -1,0 +1,12 @@
+{
+  "producto": "AgroChek OS",
+  "plataforma": "ReactOS",
+  "arquitectura": "x86",
+  "formato": "agrochek-os-catalogo-v1",
+  "fecha": "2026-10-21",
+  "actualizaciones": [],
+  "estado": "Sin paquetes de sistema publicados para instalacion",
+  "canal_suite_windows": "https://raw.githubusercontent.com/Djxomm/AgroChek-updates/main/manifest.json",
+  "canal_suite_linux": "https://raw.githubusercontent.com/Djxomm/AgroChek-updates/main/manifest-linux.json",
+  "nota": "Las actualizaciones de la suite no sustituyen al sistema operativo. Este catalogo no ejecuta instaladores."
+}
