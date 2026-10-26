@@ -1,21 +1,21 @@
 {
   "producto": "AgroChek ERP",
   "version": "7.0.00",
-  "compilacion": "20261020.02",
+  "compilacion": "20261026.01",
   "tipo": "solo_actualizacion",
   "requiere_instalacion_existente": true,
   "identidad_instalacion": "A42CA56D-5A1B-4DF3-BD86-761B41D844E7",
-  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261020.02/AgroChek_ERP_7.0.00_20261020_02_ACTUALIZACION.exe",
-  "sha256": "9530c7a26f1cf1973f7e628678ebc13c8a655a85cddee3465b9e760eb3addc87",
-  "bytes": 114429398,
-  "producto_sha256": "2f80c9e1e3c01d6da9f127187cb8015152196976178d985e88c4862a7d6a602c",
+  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261026.01/AgroChek_ERP_7.0.00_20261026_01_ACTUALIZACION.exe",
+  "sha256": "d827a15ad1f30bf5403ac674d63dcd451438c4f491f6df0aec92b5e12a614c6a",
+  "bytes": 116703280,
+  "producto_sha256": "ed2da861814a94acd5e8979aacb9e8daf1439847a17dbbc96bc71c6c2d888f14",
   "instalacion_automatica_habilitada": true,
   "estado": "VALIDADA_LOCALMENTE",
-  "fecha_estado": "2026-10-20",
-  "notas": "Corrige el bloqueo de admin al editar pallets y papeletas. Root y admin activos con nivel Administrador conservan ese acceso; los demás usuarios requieren los permisos de edición asignados. Los perfiles protegidos se muestran para consulta, sin permitir un guardado que sería rechazado. Conserva las comprobaciones de sesión, cuenta activa y permisos al guardar, y mantiene los colores de conflicto de la versión anterior.",
+  "fecha_estado": "2026-10-26",
+  "notas": "Agrega Cilindros entre Variedad y Fosa en Papeletas de recepción. Permite capturar y corregir los identificadores, consultar cilindros existentes y conservar el dato al reabrir; mantiene historial y cola de sincronización. Base Windows 20261022.01.",
   "limites": [
-    "64 pruebas con código del producto final, tres recorridos binarios y arranque normal en perfil vacío.",
-    "Instalador comprobado por extracción estática; no instalado en los equipos remotos.",
-    "No se escribió ni se validó el servidor SQL de producción durante esta tarea."
+    "14 pruebas de captura/edición/permisos y 19 del instalador; tres recorridos binarios con datos temporales y arranque con base vacía.",
+    "Actualizador compilado y extraído: el ejecutable interno coincide por SHA-256. No instalado en equipos de producción.",
+    "No se escribió ni validó SQL de producción."
   ]
 }
