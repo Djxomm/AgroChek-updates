@@ -1,21 +1,21 @@
 {
   "producto": "AgroChek ERP",
   "version": "7.0.00",
-  "compilacion": "20261026.01",
+  "compilacion": "20261026.02",
   "tipo": "solo_actualizacion",
   "requiere_instalacion_existente": true,
   "identidad_instalacion": "A42CA56D-5A1B-4DF3-BD86-761B41D844E7",
-  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261026.01/AgroChek_ERP_7.0.00_20261026_01_ACTUALIZACION.exe",
-  "sha256": "d827a15ad1f30bf5403ac674d63dcd451438c4f491f6df0aec92b5e12a614c6a",
-  "bytes": 116703280,
-  "producto_sha256": "ed2da861814a94acd5e8979aacb9e8daf1439847a17dbbc96bc71c6c2d888f14",
+  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261026.02/AgroChek_ERP_7.0.00_20261026_02_ACTUALIZACION.exe",
+  "sha256": "c52008680492828330659e8917aa77089969f374a7c8b27fabf608c5b6192113",
+  "bytes": 116713522,
+  "producto_sha256": "438dc4ab7233d07bd4ee78048aeefdd1df7baf18285c96f4d75c2dec86a42dc9",
   "instalacion_automatica_habilitada": true,
   "estado": "VALIDADA_LOCALMENTE",
   "fecha_estado": "2026-10-26",
-  "notas": "Agrega Cilindros entre Variedad y Fosa en Papeletas de recepción. Permite capturar y corregir los identificadores, consultar cilindros existentes y conservar el dato al reabrir; mantiene historial y cola de sincronización. Base Windows 20261022.01.",
+  "notas": "Papeletas de recepción y Captura Nuez muestran el mismo historial de carretas. Agrega enlace de cada papeleta a uno o varios folios existentes de cilindro, columna de folios y consulta de sus papeletas. Distingue folio de llenado y cilindro físico; conserva las recepciones anteriores de báscula en consulta separada.",
   "limites": [
-    "14 pruebas de captura/edición/permisos y 19 del instalador; tres recorridos binarios con datos temporales y arranque con base vacía.",
-    "Actualizador compilado y extraído: el ejecutable interno coincide por SHA-256. No instalado en equipos de producción.",
-    "No se escribió ni validó SQL de producción."
+    "17 pruebas locales con datos temporales, tres recorridos binarios completos con ambos cambios y arranque con base vacía.",
+    "Actualizador verificado por extracción: el ejecutable interno coincide por SHA-256; no instalado sobre producción.",
+    "Se comprobó la cola local y la incorporación entre bases ficticias; no se escribió ni validó SQL de producción."
   ]
 }
