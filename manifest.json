@@ -1,21 +1,21 @@
 {
   "producto": "AgroChek ERP",
   "version": "7.0.00",
-  "compilacion": "20261026.02",
+  "compilacion": "20261026.03",
   "tipo": "solo_actualizacion",
   "requiere_instalacion_existente": true,
   "identidad_instalacion": "A42CA56D-5A1B-4DF3-BD86-761B41D844E7",
-  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261026.02/AgroChek_ERP_7.0.00_20261026_02_ACTUALIZACION.exe",
-  "sha256": "c52008680492828330659e8917aa77089969f374a7c8b27fabf608c5b6192113",
-  "bytes": 116713522,
-  "producto_sha256": "438dc4ab7233d07bd4ee78048aeefdd1df7baf18285c96f4d75c2dec86a42dc9",
+  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261026.03/AgroChek_ERP_7.0.00_20261026_03_ACTUALIZACION.exe",
+  "sha256": "1f5a3189ecba8463bd6038a92f5acb50c3835a4faf9df1b22521311e38f69f0d",
+  "bytes": 116717899,
+  "producto_sha256": "e3c2cf448df7962484957a7edaebba9c83302b6d2c270c1ec0687c9ff001e2dd",
   "instalacion_automatica_habilitada": true,
   "estado": "VALIDADA_LOCALMENTE",
   "fecha_estado": "2026-10-26",
-  "notas": "Papeletas de recepción y Captura Nuez muestran el mismo historial de carretas. Agrega enlace de cada papeleta a uno o varios folios existentes de cilindro, columna de folios y consulta de sus papeletas. Distingue folio de llenado y cilindro físico; conserva las recepciones anteriores de báscula en consulta separada.",
+  "notas": "Solo al editar papeletas: selector visible Folio(s) de cilindro junto a Cilindros, enlaces actuales precargados, varios folios existentes y guardado conjunto. Las mismas papeletas se reflejan en Recepción y Captura Nuez.",
   "limites": [
-    "17 pruebas locales con datos temporales, tres recorridos binarios completos con ambos cambios y arranque con base vacía.",
-    "Actualizador verificado por extracción: el ejecutable interno coincide por SHA-256; no instalado sobre producción.",
-    "Se comprobó la cola local y la incorporación entre bases ficticias; no se escribió ni validó SQL de producción."
+    "19 pruebas locales con datos temporales y tres recorridos binarios completos con el editor nuevo, más arranque normal con base vacía.",
+    "Actualizador verificado por extracción y SHA-256; no instalado sobre producción.",
+    "Sin SQL ni bases productivas. No crea folios nuevos ni cambia el folio de la papeleta."
   ]
 }
