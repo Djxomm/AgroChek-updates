@@ -1,21 +1,21 @@
 {
   "producto": "AgroChek ERP",
   "version": "7.0.00",
-  "compilacion": "20261027.01",
+  "compilacion": "20261027.02",
   "tipo": "solo_actualizacion",
   "requiere_instalacion_existente": true,
   "identidad_instalacion": "A42CA56D-5A1B-4DF3-BD86-761B41D844E7",
-  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261027.01/AgroChek_ERP_7.0.00_20261027_01_ACTUALIZACION.exe",
-  "sha256": "2aad322495e3785af7ce74f335c627b1e344317ea5d8151df7091460578843b7",
-  "bytes": 116827949,
-  "producto_sha256": "5486a82b25877f5ccaeafc4c8e34cfbc249cf7d10aa016f0665136df20c04ad9",
+  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261027.02/AgroChek_ERP_7.0.00_20261027_02_ACTUALIZACION.exe",
+  "sha256": "64badbc16a3be55a5fdd065cd4bef8e78e90deb5eaa9987e967ed534e9230f92",
+  "bytes": 116828492,
+  "producto_sha256": "0976ab90552f4b6a30dd372ca757aa849978f2c61068fd2d77482099288cd427",
   "instalacion_automatica_habilitada": true,
   "estado": "VALIDADA_LOCALMENTE",
   "fecha_estado": "2026-10-27",
-  "notas": "Espárrago: iniciar y finalizar temporada, consulta de estado, permisos, historial y pendientes conservados. Bloqueo de nuevas capturas tras el cierre; temporadas independientes de Nogalera.",
+  "notas": "Papeletas: buscador por folio, selección exacta y acceso directo a editar con Enter. Conserva permisos, historial y funciones de Espárrago.",
   "limites": [
-    "100 pruebas locales y tres recorridos compilados, más arranque del producto con base vacía.",
-    "Contrato SQL simulado; sin SQL Server ni bases productivas.",
+    "18 pruebas locales y tres recorridos compilados, más arranque del producto con base vacía.",
+    "Pruebas funcionales aisladas con datos ficticios; sin bases productivas.",
     "Actualizador extraído con SHA-256 idéntico al producto probado; no instalado sobre producción."
   ]
 }
