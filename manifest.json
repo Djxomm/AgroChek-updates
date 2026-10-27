@@ -1,21 +1,21 @@
 {
   "producto": "AgroChek ERP",
   "version": "7.0.00",
-  "compilacion": "20261026.03",
+  "compilacion": "20261027.01",
   "tipo": "solo_actualizacion",
   "requiere_instalacion_existente": true,
   "identidad_instalacion": "A42CA56D-5A1B-4DF3-BD86-761B41D844E7",
-  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261026.03/AgroChek_ERP_7.0.00_20261026_03_ACTUALIZACION.exe",
-  "sha256": "1f5a3189ecba8463bd6038a92f5acb50c3835a4faf9df1b22521311e38f69f0d",
-  "bytes": 116717899,
-  "producto_sha256": "e3c2cf448df7962484957a7edaebba9c83302b6d2c270c1ec0687c9ff001e2dd",
+  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261027.01/AgroChek_ERP_7.0.00_20261027_01_ACTUALIZACION.exe",
+  "sha256": "2aad322495e3785af7ce74f335c627b1e344317ea5d8151df7091460578843b7",
+  "bytes": 116827949,
+  "producto_sha256": "5486a82b25877f5ccaeafc4c8e34cfbc249cf7d10aa016f0665136df20c04ad9",
   "instalacion_automatica_habilitada": true,
   "estado": "VALIDADA_LOCALMENTE",
-  "fecha_estado": "2026-10-26",
-  "notas": "Solo al editar papeletas: selector visible Folio(s) de cilindro junto a Cilindros, enlaces actuales precargados, varios folios existentes y guardado conjunto. Las mismas papeletas se reflejan en Recepción y Captura Nuez.",
+  "fecha_estado": "2026-10-27",
+  "notas": "Espárrago: iniciar y finalizar temporada, consulta de estado, permisos, historial y pendientes conservados. Bloqueo de nuevas capturas tras el cierre; temporadas independientes de Nogalera.",
   "limites": [
-    "19 pruebas locales con datos temporales y tres recorridos binarios completos con el editor nuevo, más arranque normal con base vacía.",
-    "Actualizador verificado por extracción y SHA-256; no instalado sobre producción.",
-    "Sin SQL ni bases productivas. No crea folios nuevos ni cambia el folio de la papeleta."
+    "100 pruebas locales y tres recorridos compilados, más arranque del producto con base vacía.",
+    "Contrato SQL simulado; sin SQL Server ni bases productivas.",
+    "Actualizador extraído con SHA-256 idéntico al producto probado; no instalado sobre producción."
   ]
 }
