@@ -4,6 +4,30 @@
     {
       "producto": "AgroChek ERP",
       "version": "7.0.00",
+      "compilacion": "20261029.04",
+      "tipo": "solo_actualizacion",
+      "requiere_instalacion_existente": true,
+      "identidad_instalacion": "A42CA56D-5A1B-4DF3-BD86-761B41D844E7",
+      "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261029.04/AgroChek_ERP_7.0.00_20261029_04_ACTUALIZACION.exe",
+      "sha256": "093b6cb275370d31ea361c0fbb14cbf5cd4ba403233b8d15baba605f0baec668",
+      "bytes": 116905228,
+      "producto_sha256": "763b29753f42acfef5bae8c69e5ef82e80483d614889c4fd552963a04487f019",
+      "instalacion_automatica_habilitada": true,
+      "estado": "VALIDADA_LOCALMENTE",
+      "fecha_estado": "2026-10-29",
+      "tipo_actualizacion": "opcional",
+      "incluye_pieles": false,
+      "incluye_comedor": true,
+      "notas": "Actualiza el icono de AgroChek ERP al logo propio de AgroChek OS Debian (hoja verde y circuitos) en el ejecutable, los accesos directos, las ventanas y el actualizador. Conserva la apariencia Tradicional, el icono de Comedor, los logos de las empresas y sus reportes. Mantiene trazabilidad, gráficas, Comedor, permisos y selector de versiones. Actualización opcional; puede seguir trabajando y actualizar cuando lo decida.",
+      "limites": [
+        "Peso estimado por porcentaje: 100% equivale a 2500 kg; no es peso de báscula.",
+        "Las fuentes de origen se representan por separado y no se suman entre sí.",
+        "Validado en fuentes, tres perfiles compilados y actualización aislada; sin escrituras de datos en producción."
+      ]
+    },
+    {
+      "producto": "AgroChek ERP",
+      "version": "7.0.00",
       "compilacion": "20261029.02",
       "tipo": "solo_actualizacion",
       "requiere_instalacion_existente": true,
