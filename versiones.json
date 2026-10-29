@@ -4,6 +4,28 @@
     {
       "producto": "AgroChek ERP",
       "version": "7.0.00",
+      "compilacion": "20261028.06",
+      "tipo": "solo_actualizacion",
+      "requiere_instalacion_existente": true,
+      "identidad_instalacion": "A42CA56D-5A1B-4DF3-BD86-761B41D844E7",
+      "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261028.06/AgroChek_ERP_7.0.00_20261028_06_ACTUALIZACION.exe",
+      "sha256": "61a4a31410b315556e9177207a92a2f0c4509ee69c263216c9493607b08ffd64",
+      "bytes": 116875976,
+      "producto_sha256": "ae690833e21b2415b2d2c7d2fa8e31bc6f4529ce2a86ff69f4773edb44841beb",
+      "instalacion_automatica_habilitada": true,
+      "estado": "VALIDADA_LOCALMENTE",
+      "fecha_estado": "2026-10-28",
+      "tipo_actualizacion": "opcional",
+      "incluye_pieles": false,
+      "notas": "Añade peso estimado de carreta únicamente al ejercicio de trazabilidad y sus reportes PDF/Excel: 100%=2500 kg, 75%=1875 kg, 50%=1250 kg y 25%=625 kg. Las papeletas conservan sus porcentajes y los pesos reales de báscula permanecen separados. Incluye selector de versiones y ventana compacta de actualizaciones con sus iconos tradicionales. No incluye pieles; se reservan para el siguiente paquete. Actualización opcional.",
+      "limites": [
+        "Tres recorridos compilados y actualización aislada con reapertura y conservación de datos aprobados.",
+        "Los vínculos sin origen confirmado siguen señalados; no se inventan relaciones."
+      ]
+    },
+    {
+      "producto": "AgroChek ERP",
+      "version": "7.0.00",
       "compilacion": "20261028.05",
       "tipo": "solo_actualizacion",
       "requiere_instalacion_existente": true,
