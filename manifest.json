@@ -1,21 +1,21 @@
 {
   "producto": "AgroChek ERP",
   "version": "7.0.00",
-  "compilacion": "20261027.02",
+  "compilacion": "20261028.03",
   "tipo": "solo_actualizacion",
   "requiere_instalacion_existente": true,
   "identidad_instalacion": "A42CA56D-5A1B-4DF3-BD86-761B41D844E7",
-  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261027.02/AgroChek_ERP_7.0.00_20261027_02_ACTUALIZACION.exe",
-  "sha256": "64badbc16a3be55a5fdd065cd4bef8e78e90deb5eaa9987e967ed534e9230f92",
-  "bytes": 116828492,
-  "producto_sha256": "0976ab90552f4b6a30dd372ca757aa849978f2c61068fd2d77482099288cd427",
+  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261028.03/AgroChek_ERP_7.0.00_20261028_03_ACTUALIZACION.exe",
+  "sha256": "faab8f7c382939d88f753ae4b05deaea80a82254d73a156143759c29bb56c68a",
+  "bytes": 116866998,
+  "producto_sha256": "f3b5829521e4942b929a36dec152562c0b056a6df7a7345d163cea7fed9881b3",
   "instalacion_automatica_habilitada": true,
   "estado": "VALIDADA_LOCALMENTE",
-  "fecha_estado": "2026-10-27",
-  "notas": "Papeletas: buscador por folio, selección exacta y acceso directo a editar con Enter. Conserva permisos, historial y funciones de Espárrago.",
+  "fecha_estado": "2026-10-28",
+  "notas": "Trazabilidad por folio de manifiesto y vínculos de papeletas con cilindros. Reporte diario, producción acumulada por variedad e inventario con subtotales y total general: vista previa, impresión, PDF y Excel. Nombre de reporte, verdes y logo oficial de Nogalera. Conserva configuración y contrato. La piel Eficiente se entregará por separado.",
   "limites": [
-    "18 pruebas locales y tres recorridos compilados, más arranque del producto con base vacía.",
-    "Pruebas funcionales aisladas con datos ficticios; sin bases productivas.",
-    "Actualizador extraído con SHA-256 idéntico al producto probado; no instalado sobre producción."
+    "Tres recorridos compilados y arranque aislado aprobados.",
+    "Actualización y reapertura con conservación de bases comprobadas; instalada y verificada en una PC Windows.",
+    "Los registros sin origen confirmado se señalan para revisión; no se inventan vínculos."
   ]
 }
