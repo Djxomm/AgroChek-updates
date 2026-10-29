@@ -4,6 +4,30 @@
     {
       "producto": "AgroChek ERP",
       "version": "7.0.00",
+      "compilacion": "20261029.02",
+      "tipo": "solo_actualizacion",
+      "requiere_instalacion_existente": true,
+      "identidad_instalacion": "A42CA56D-5A1B-4DF3-BD86-761B41D844E7",
+      "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261029.02/AgroChek_ERP_7.0.00_20261029_02_ACTUALIZACION.exe",
+      "sha256": "bffadeeddf6451ef59a818b0c3b001278b03965c3a7ca156966306f7b21e7cac",
+      "bytes": 117289946,
+      "producto_sha256": "e82675e7bb73a829b800a5cc67c5664a31787e4f2aa61669bb60ad4ccbb1e0d3",
+      "instalacion_automatica_habilitada": true,
+      "estado": "VALIDADA_LOCALMENTE",
+      "fecha_estado": "2026-10-29",
+      "tipo_actualizacion": "opcional",
+      "incluye_pieles": false,
+      "incluye_comedor": true,
+      "notas": "Corrige la lectura de permisos locales que impedía activar Comedor y logos, consultar pedidos y usar los accesos de Comedor en el ERP. Conserva la comprobación de permisos y la lectura local de solo lectura. Mantiene las gráficas en hoja independiente de PDF y Excel, los datos, la apariencia Tradicional y el selector de versiones. Actualización opcional recomendada.",
+      "limites": [
+        "Peso estimado por porcentaje: 100% equivale a 2500 kg; no es peso de báscula.",
+        "Las fuentes de origen se representan por separado y no se suman entre sí.",
+        "Validado en fuentes, tres perfiles compilados y actualización aislada; sin escrituras de datos en producción."
+      ]
+    },
+    {
+      "producto": "AgroChek ERP",
+      "version": "7.0.00",
       "compilacion": "20261029.01",
       "tipo": "solo_actualizacion",
       "requiere_instalacion_existente": true,
@@ -12,18 +36,19 @@
       "sha256": "5b1bebaf4895c6b883a091a9041b3070f8a7a24b3581811c1f47731d5c13853f",
       "bytes": 117290448,
       "producto_sha256": "3dced97ce9db087013fcd20ee4a48fb0c67cc29460be72bc46611a5974527ab7",
-      "instalacion_automatica_habilitada": true,
+      "instalacion_automatica_habilitada": false,
       "estado": "VALIDADA_LOCALMENTE",
       "fecha_estado": "2026-10-29",
       "tipo_actualizacion": "opcional",
       "incluye_pieles": false,
       "incluye_comedor": true,
-      "notas": "Agrega una hoja independiente de gráficas al reporte de trazabilidad de Nuez, con logo de Nogalera El Alamito, verdes de AgroChek y Grupo Elva. Incluye distribución por porcentaje de llenado y peso estimado por fuente; conserva el detalle y evita duplicar papeletas enlazadas a varios pallets. Disponible en PDF, vista previa de impresión y una pestaña adicional en Excel. Mantiene Tradicional, Comedor, reportes y selector de versiones. Actualización opcional.",
+      "notas": "Agrega una hoja independiente de gráficas al reporte de trazabilidad de Nuez, con logo de Nogalera El Alamito, verdes de AgroChek y Grupo Elva. Incluye distribución por porcentaje de llenado y peso estimado por fuente; conserva el detalle y evita duplicar papeletas enlazadas a varios pallets. Disponible en PDF, vista previa de impresión y una pestaña adicional en Excel. Mantiene Tradicional, Comedor, reportes y selector de versiones. Actualización opcional. Versión reemplazada por 20261029.02: corrección de lectura de permisos de Comedor.",
       "limites": [
         "Peso estimado por porcentaje: 100% equivale a 2500 kg; no es peso de báscula.",
         "Las fuentes de origen se representan por separado y no se suman entre sí.",
         "Validado en fuentes, tres perfiles compilados y actualización aislada; sin escrituras de datos en producción."
-      ]
+      ],
+      "retirada_del_selector": true
     },
     {
       "producto": "AgroChek ERP",
@@ -36,17 +61,18 @@
       "sha256": "167cf05a831ad7e2b9256bee5674825db831cebea1c7e5fab76e3a12938f84d5",
       "bytes": 117189784,
       "producto_sha256": "241672f74807d8d292f87de733bfb7dc8a0fc6617dbc9dc870304448b1c115b1",
-      "instalacion_automatica_habilitada": true,
+      "instalacion_automatica_habilitada": false,
       "estado": "VALIDADA_LOCALMENTE",
       "fecha_estado": "2026-10-29",
       "tipo_actualizacion": "opcional",
       "incluye_pieles": false,
       "incluye_comedor": true,
-      "notas": "Integra Comedor al ERP: acceso por comedores 1 a 9, pedidos con acuse de Compras, surtido parcial y recepción. Inventario de mercancía sin costos en Comedor 1.4.0, con Excel y PDF. Configuración de logos por empresa; El Socorro identificado como provisional. Conserva la corrección de carretas y peso estimado de trazabilidad. Apariencia Tradicional con sus iconos; Eficiente retirada. Actualización opcional.",
+      "notas": "Integra Comedor al ERP: acceso por comedores 1 a 9, pedidos con acuse de Compras, surtido parcial y recepción. Inventario de mercancía sin costos en Comedor 1.4.0, con Excel y PDF. Configuración de logos por empresa; El Socorro identificado como provisional. Conserva la corrección de carretas y peso estimado de trazabilidad. Apariencia Tradicional con sus iconos; Eficiente retirada. Actualización opcional. Versión reemplazada por 20261029.02: corrección de lectura de permisos de Comedor.",
       "limites": [
         "Tres recorridos compilados y ensayo de actualización con reapertura y conservación de datos de prueba aprobados.",
         "La activación compartida se realiza con una cuenta de administrador desde Configuración. Las pruebas de pedidos usaron datos ficticios; no se inyectaron pedidos en producción."
-      ]
+      ],
+      "retirada_del_selector": true
     },
     {
       "producto": "AgroChek ERP",
