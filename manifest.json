@@ -1,21 +1,22 @@
 {
   "producto": "AgroChek ERP",
   "version": "7.0.00",
-  "compilacion": "20261028.03",
+  "compilacion": "20261028.04",
   "tipo": "solo_actualizacion",
   "requiere_instalacion_existente": true,
   "identidad_instalacion": "A42CA56D-5A1B-4DF3-BD86-761B41D844E7",
-  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261028.03/AgroChek_ERP_7.0.00_20261028_03_ACTUALIZACION.exe",
-  "sha256": "faab8f7c382939d88f753ae4b05deaea80a82254d73a156143759c29bb56c68a",
-  "bytes": 116866998,
-  "producto_sha256": "f3b5829521e4942b929a36dec152562c0b056a6df7a7345d163cea7fed9881b3",
+  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261028.04/AgroChek_ERP_7.0.00_20261028_04_ACTUALIZACION.exe",
+  "sha256": "896785576f803cf4fab005760c6a18a83af3ce1d63a0f318f1fa1b34e1313715",
+  "bytes": 116868716,
+  "producto_sha256": "715c854d4ff4b1d3a6c7be4c65bb5fbe9e10955cf791b8fdf1d258522ae37f0f",
   "instalacion_automatica_habilitada": true,
   "estado": "VALIDADA_LOCALMENTE",
   "fecha_estado": "2026-10-28",
-  "notas": "Trazabilidad por folio de manifiesto y vínculos de papeletas con cilindros. Reporte diario, producción acumulada por variedad e inventario con subtotales y total general: vista previa, impresión, PDF y Excel. Nombre de reporte, verdes y logo oficial de Nogalera. Conserva configuración y contrato. La piel Eficiente se entregará por separado.",
+  "tipo_actualizacion": "opcional",
+  "incluye_pieles": false,
+  "notas": "Agrega el selector de versiones disponibles, con la más reciente recomendada y notas por entrega. Mantiene la apariencia Tradicional y las mejoras de trazabilidad y reportes. Actualización opcional: puede continuar trabajando y actualizar después.",
   "limites": [
-    "Tres recorridos compilados y arranque aislado aprobados.",
-    "Actualización y reapertura con conservación de bases comprobadas; instalada y verificada en una PC Windows.",
-    "Los registros sin origen confirmado se señalan para revisión; no se inventan vínculos."
+    "Tres recorridos compilados y actualización aislada con reapertura y conservación de datos aprobados.",
+    "Los vínculos sin origen confirmado siguen señalados; no se inventan relaciones."
   ]
 }
