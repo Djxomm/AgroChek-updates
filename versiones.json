@@ -4,6 +4,28 @@
     {
       "producto": "AgroChek ERP",
       "version": "7.0.00",
+      "compilacion": "20261028.05",
+      "tipo": "solo_actualizacion",
+      "requiere_instalacion_existente": true,
+      "identidad_instalacion": "A42CA56D-5A1B-4DF3-BD86-761B41D844E7",
+      "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261028.05/AgroChek_ERP_7.0.00_20261028_05_ACTUALIZACION.exe",
+      "sha256": "0ccf39b3ec8b3249630470e1ffa8c595a80ec41cff875184262fb8fc19242502",
+      "bytes": 116881804,
+      "producto_sha256": "c4a6afd673050f096e044a34dafa30e1c922811d8fea5b9bb6bd4e893d58bcd4",
+      "instalacion_automatica_habilitada": true,
+      "estado": "VALIDADA_LOCALMENTE",
+      "fecha_estado": "2026-10-28",
+      "tipo_actualizacion": "opcional",
+      "incluye_pieles": true,
+      "notas": "Agrega las pieles Tradicional y Eficiente, elegibles por cada usuario desde Apariencia. Tradicional permanece como opción inicial. Eficiente mejora lectura, tablas y captura en oficina; la selección se aplica en el siguiente inicio de sesión. Conserva trazabilidad, reportes con logo de Nogalera y selector de versiones. Actualización opcional, sin instalación obligatoria.",
+      "limites": [
+        "Tres recorridos compilados y actualización aislada con reapertura y conservación de datos aprobados.",
+        "Los vínculos sin origen confirmado siguen señalados; no se inventan relaciones."
+      ]
+    },
+    {
+      "producto": "AgroChek ERP",
+      "version": "7.0.00",
       "compilacion": "20261028.04",
       "tipo": "solo_actualizacion",
       "requiere_instalacion_existente": true,
