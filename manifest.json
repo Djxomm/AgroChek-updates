@@ -1,29 +1,21 @@
 {
   "producto": "AgroChek ERP",
   "version": "7.0.00",
-  "version_erp": "10.0.00",
-  "compilacion": "20261116.10",
+  "compilacion": "20261117.01",
   "tipo": "solo_actualizacion",
   "requiere_instalacion_existente": true,
   "identidad_instalacion": "A42CA56D-5A1B-4DF3-BD86-761B41D844E7",
-  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261116.10/AgroChek_ERP_7.0.00_20261116_10_ACTUALIZACION.exe",
-  "sha256": "4e69cfb5f8f4c5c4e0ed8335a4e743a566e6fc58901905dae43344df6fe832fb",
-  "bytes": 114748289,
-  "producto_sha256": "92dd9cf1d3eeb1eeb4f21603e6d8bb0cd00248a7eba50f11e758d2004a7701a7",
+  "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261117.01/AgroChek_ERP_7.0.00_20261117_01_ACTUALIZACION.exe",
+  "sha256": "fcfc7b8e98929eff2ac1ae2054b1c54f32075df198fc1d900fb0cb2ada08e532",
+  "bytes": 116414324,
+  "producto_sha256": "924c129ec7d446c8a515c1a2ffc05863f25d760dcf22c4752de43d00d33795cd",
   "instalacion_automatica_habilitada": true,
   "estado": "VALIDADA_LOCALMENTE",
-  "fecha_estado": "2026-11-16",
+  "fecha_estado": "2026-11-17",
   "tipo_actualizacion": "opcional",
-  "incluye_pieles": true,
-  "incluye_comedor": true,
-  "actualiza_desde_v7": true,
-  "instalador_completo_url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261116.10/AgroChek_ERP_10.0.00_20261116_10_INSTALADOR.exe",
-  "instalador_completo_sha256": "4c4af6b7c4314b59d1445a3d5157ca05fd92a9941b7907fb18cd70b1b78e836f",
-  "instalador_completo_bytes": 114750863,
-  "notas": "Actualización mayor a AgroChek ERP 10 (10.0.00 · Compilación 20261116.10), compatible con instalaciones existentes de AgroChek ERP 7 y AgroChek 10. Incluye nueva interfaz despejada (piel AgroChek 10 · Despejada reversible a Tradicional), Modo Estándar guiado para operadores con cambio en vivo a Vista Completa, Centro de Control Biométrico con escaneo LAN e iconos Flaticon, reportes completos con Vista previa, Imprimir, PDF y Excel en Control Nuez para Rendimiento y humedad de pallets (con filtros y promedios) y Producción completa de pallets (20 columnas y totales), y respaldo automático de bases y configuración antes de actualizar.",
+  "notas": "Agrega Excel y PDF en Producción de pallets y Rendimiento y humedad. Permite exportar resultados filtrados o todos los pallets de la temporada. PDF completo por secciones y Excel con valores numéricos. Conserva la base de correcciones 20261114.01. Actualización opcional.",
   "limites": [
-    "Respalda automáticamente bases SQLite y archivos de configuración en Respaldos antes de actualizar\\20261116_10\\.",
-    "Detecta instalaciones previas de AgroChek ERP 7 o AgroChek 10 y conserva datos, licencia y usuarios.",
-    "La selección de piel (AgroChek 10 · Despejada o Tradicional) puede alternarse por cuenta en Ver / Configuración."
+    "Pruebas con datos ficticios y perfil aislado; sin instalación ni escrituras en producción.",
+    "Esta entrega verifica reportes; no acredita nuevas pruebas físicas de Anviz."
   ]
 }

@@ -4,6 +4,27 @@
     {
       "producto": "AgroChek ERP",
       "version": "7.0.00",
+      "compilacion": "20261117.01",
+      "tipo": "solo_actualizacion",
+      "requiere_instalacion_existente": true,
+      "identidad_instalacion": "A42CA56D-5A1B-4DF3-BD86-761B41D844E7",
+      "url": "https://github.com/Djxomm/AgroChek-updates/releases/download/v7.0.00-20261117.01/AgroChek_ERP_7.0.00_20261117_01_ACTUALIZACION.exe",
+      "sha256": "fcfc7b8e98929eff2ac1ae2054b1c54f32075df198fc1d900fb0cb2ada08e532",
+      "bytes": 116414324,
+      "producto_sha256": "924c129ec7d446c8a515c1a2ffc05863f25d760dcf22c4752de43d00d33795cd",
+      "instalacion_automatica_habilitada": true,
+      "estado": "VALIDADA_LOCALMENTE",
+      "fecha_estado": "2026-11-17",
+      "tipo_actualizacion": "opcional",
+      "notas": "Agrega Excel y PDF en Producción de pallets y Rendimiento y humedad. Permite exportar resultados filtrados o todos los pallets de la temporada. PDF completo por secciones y Excel con valores numéricos. Conserva la base de correcciones 20261114.01. Actualización opcional.",
+      "limites": [
+        "Pruebas con datos ficticios y perfil aislado; sin instalación ni escrituras en producción.",
+        "Esta entrega verifica reportes; no acredita nuevas pruebas físicas de Anviz."
+      ]
+    },
+    {
+      "producto": "AgroChek ERP",
+      "version": "7.0.00",
       "version_erp": "10.0.00",
       "compilacion": "20261116.10",
       "tipo": "solo_actualizacion",
