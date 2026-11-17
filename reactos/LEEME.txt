@@ -1,0 +1,1 @@
+Catalogo de actualizaciones de AgroChek OS para ReactOS. No hay paquetes de sistema validados publicados. Las actualizaciones de ERP Windows/Linux conservan sus canales propios. No contiene instaladores ni controladores.
